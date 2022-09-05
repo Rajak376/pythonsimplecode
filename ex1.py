@@ -16,3 +16,4 @@ class stu2(stu,stu1):
 
 p1=stu2('Razzak',25,1314)
 print(p1.name3)
+print(p1.age)
