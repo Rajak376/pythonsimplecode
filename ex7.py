@@ -1,19 +1,10 @@
 try:
-    f=open('file.txt','w')
+    t = 5/0  
+    print(t)
+except ZeroDivisionError:
+    print('exception is occurred')
+    print("Can't divide by zero")
+  
+finally:
+    print('This is always executed')
 
-    try:
-        f.write('i am learing simple codings')
-
-    except:
-
-        print('an exption is occurred')
-
-    finally:
-
-        f.close()
-
-        print(close)
-
-except:
-
-    print('try and expcet are closed')
